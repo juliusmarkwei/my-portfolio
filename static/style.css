@@ -1,0 +1,67 @@
+.urls li {
+    display: inline-block;
+    margin-right: 10px; /* Add some spacing between items */
+    padding-left: 15%;
+    font-size: x-large;
+    transform: scale(0.9);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* a:hover{
+    transform: scale(0.9);
+} */
+
+body{
+    background-color: rgb(225, 216, 205);
+}
+
+.main-body {
+    margin: 5px;
+    margin-left: 200px;
+    padding: 80px; /* Add some padding around the text */
+    padding-left: 50px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.profile {
+    display: inline-block; /* Display as an inline block */
+    padding: 20px; /* Add padding around the image */
+}
+
+/* Style the image */
+.profile img {
+    display: block; /* Remove any default spacing */
+    max-width: 100%; /* Ensure the image doesn't overflow the container */
+    height: auto;
+}
+
+/* Style the image as an icon */
+.logos img {
+    width: 24px; /* Set the desired width */
+    height: 24px; /* Set the desired height */
+    padding-top: 20px;
+}
+
+.footer-main{
+    padding-top: 50px;
+}
+.footer-main p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-body p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
