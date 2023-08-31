@@ -1,9 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+*{
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+    width: max-content;
+    margin: auto;
+    height: 100vh;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 30px 0;
+}
+
 .urls li {
-    display: inline-block;
-    margin-right: 10px; /* Add some spacing between items */
-    padding-left: 15%;
-    font-size: x-large;
-    transform: scale(0.9);
+    list-style-type: none;
+    font-weight: 600;
+}
+
+.urls li a{
+    font-size: 16px;
+    transition: .2s linear;
+}
+
+.urls li a:hover{
+    color: rgb(255, 255, 255);
+    transform: scaleX(2px);
+    font-size: 20px;
+    border-bottom: 2px solid rebeccapurple;
 }
 
 a {
@@ -18,34 +52,43 @@ a {
 
 body{
     background-color: rgb(225, 216, 205);
+    height: 100vh;
 }
 
 .main-body {
-    margin: 5px;
-    margin-left: 200px;
-    padding: 80px; /* Add some padding around the text */
-    padding-left: 50px;
-    display: inline-block;
-    border: 1px solid black;
 }
 
-.profile {
-    display: inline-block; /* Display as an inline block */
-    padding: 20px; /* Add padding around the image */
+.profile_container{
+    display: flex;
+    gap: 20px;
 }
 
-/* Style the image */
-.profile img {
-    display: block; /* Remove any default spacing */
-    max-width: 100%; /* Ensure the image doesn't overflow the container */
-    height: auto;
+.profile_picture img {
+    width: 80%;
+
 }
+
+._profile{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* height: 80vh; */
+    width: 50%;
+    /* flex-wrap: wrap;
+    align-items: start; */
+    /* justify-content: space-around; */
+}
+
+._profile div:first-child{
+    flex: 1;
+}
+
 
 /* Style the image as an icon */
 .logos img {
     width: 24px; /* Set the desired width */
     height: 24px; /* Set the desired height */
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 .footer-main{
@@ -53,15 +96,15 @@ body{
 }
 .footer-main p{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 
-.main-body p{
+/* .main-body p{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+} */
 
 h2 {
-    font-family: cursive;
+    /* font-family: cursive; */
     font-size: xx-large;
     text-transform: capitalize;
 }
