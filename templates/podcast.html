@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tech Podcast Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 60px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      color: #333333;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    .episode {
+      display: flex;
+      margin-bottom: 20px;
+    }
+    
+    .episode-image {
+      width: 150px;
+      height: auto;
+      border-radius: 5px;
+    }
+    
+    .episode-details {
+      flex: 1;
+      margin-left: 20px;
+    }
+    
+    .episode-title {
+      color: #333333;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    
+    .episode-description {
+      color: #666666;
+      line-height: 1.5;
+      margin: 0;
+      font-size: 14px;
+    }
+    
+    .episode-description::first-letter {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Tech Talk Podcast</h1>
+    
+    <div class="episode">
+      <img class="episode-image" src="/static/images/ai.jpeg" alt="Episode 1">
+      <div class="episode-details">
+        <h2 class="episode-title">Episode 1: The Future of Artificial Intelligence</h2>
+        <p class="episode-description">
+          Join us as we explore the exciting advancements and potential applications of artificial intelligence. Our guests, leading AI researchers and practitioners, discuss the latest trends, breakthroughs, and ethical considerations in the field.
+        </p>
+      </div>
+    </div>
+    
+    <div class="episode">
+      <img class="episode-image" src="/static/images/cyber.jpeg" alt="Episode 2">
+      <div class="episode-details">
+        <h2 class="episode-title">Episode 2: Cybersecurity in the Digital Age</h2>
+        <p class="episode-description">
+          In this episode, we delve into the world of cybersecurity and the challenges faced in protecting sensitive data in the digital age. Our guest experts share their insights on emerging threats, best practices for safeguarding against cyberattacks, and the importance of cybersecurity awareness.
+        </p>
+      </div>
+    </div>
+    
+    <!-- Add more episode divs as needed -->
+  </div>
+</body>
+</html>

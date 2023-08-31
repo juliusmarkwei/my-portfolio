@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      color: #333333;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    
+    p {
+      color: #666666;
+      line-height: 1.5;
+    }
+    
+    .bio-container {
+      max-width: 700px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 70px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .profile-pic {
+      display: block;
+      width: 300px;
+      height: 250px;
+      border-radius: 50%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+
+    .contact-button{
+        color: black;
+        text-decoration: none;
+        transition: transform 0.3s ease-in-out;
+    }
+  </style>
+<script>
+    function sendEmail() {
+      alert("Email sent! Thank you for contacting me.");
+    }
+  </script>
+</head>
+<body>
+  <div class="bio-container">
+    <img class="profile-pic" src="/static/images/edward2.jpeg" alt="Profile Picture">
+    <h1>JULIUS MARKWEI</h1>
+    <h2>Machine Learning Engineer and Data Scientist</h2>
+    <p>I am a passionate machine learning engineer and data scientist with a strong background in developing and deploying machine learning models for real-world applications. I have a deep understanding of various machine learning algorithms, statistical analysis, and data visualization techniques.</p>
+    <p> My expertise lies in building end-to-end machine learning systems, from data preprocessing and feature engineering to model training and evaluation. I have experience working with large datasets and implementing scalable solutions using frameworks like TensorFlow and PyTorch.</p>
+    <p>As a data scientist, I am skilled in extracting valuable insights from complex data sets and translating them into actionable recommendations. I am proficient in programming languages such as Python and R, and I have a solid understanding of databases and SQL for efficient data retrieval and manipulation.</p>
+    <p>I thrive in collaborative environments and enjoy working on challenging projects that require innovative solutions. I am constantly learning and staying up-to-date with the latest advancements in the field of machine learning and data science to ensure I deliver the most effective solutions.</p>
+    <p>Please feel free to explore my portfolio to see some of the projects I have worked on. If you have any questions or would like to discuss potential collaborations, I would be delighted to connect with you. Please click the button below to contact me via email:</p>
+    <a class="contact-button" href="mailto:your-email@example.com" onclick="sendEmail()">Contact Me</a>
+  </div>
+</body>
+</html>
